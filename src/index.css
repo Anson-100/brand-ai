@@ -15,10 +15,21 @@ body,
   /* @apply text-cyberspace */
 }
 
-/* #text-input {
-  box-shadow: 2px 2px 5px white;
-} */
-
 #text-area {
   caret-color: #5200a6;
+}
+
+.nav-menu {
+  box-shadow: 2px 2px 2px gray;
+}
+
+.nav-menu.closed {
+  max-height: 0;
+  overflow: hidden; /* Ensure content doesn't show when menu is closed */
+  transition: max-height 0.5s ease-in-out;
+}
+
+.nav-menu.open {
+  max-height: 200px; /* or whatever your max height is */
+  transition: max-height 0.5s ease-in-out;
 }

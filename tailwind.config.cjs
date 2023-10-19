@@ -14,6 +14,10 @@ module.exports = {
         "logo-purple": "#5200a6",
         cyberspace: "#182747",
         cyberblack: "#191717",
+        "shock-pink": "#DA0C81",
+        "true-pink": "#FF4B91",
+        "neon-purple": "#B931FC",
+        "retro-purple": "#5D12D2",
       },
       dark: {
         cyberblack: "#191717",
